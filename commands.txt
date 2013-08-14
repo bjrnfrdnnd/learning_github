@@ -1,0 +1,6 @@
+towards main site:
+rsync -uav ../learning/* ~/Dropbox/Public/website/. && perl -p -i.bak -e 's/WebSiteRoot\ =\ \"http:\/\/localhost\/\~bn\/learning\";/WebSiteRoot\ =\ \"https:\/\/dl.dropboxusercontent.com\/u\/8507568\/website\";/g;' ~/Dropbox/Public/website/*.html && perl -p -i.bak -e 's/WebSiteRoot\ =\ \"http:\/\/localhost\/\~bn\/learning\";/WebSiteRoot\ =\ \"https:\/\/dl.dropboxusercontent.com\/u\/8507568\/website\";/g;' ~/Dropbox/Public/website/*/*.html 
+
+towards learning site:
+rsync -uav ../learning ~/Dropbox/Public/website/. && perl -p -i.bak -e 's/WebSiteRoot\ =\ \"http:\/\/localhost\/\~bn\/learning\";/WebSiteRoot\ =\ \"https:\/\/dl.dropboxusercontent.com\/u\/8507568\/website\/learning\";/g;' ~/Dropbox/Public/website/learning/*.html && perl -p -i.bak -e 's/WebSiteRoot\ =\ \"http:\/\/localhost\/\~bn\/learning\";/WebSiteRoot\ =\ \"https:\/\/dl.dropboxusercontent.com\/u\/8507568\/website\/learning\";/g;' ~/Dropbox/Public/website/learning/*/*.html 
+
