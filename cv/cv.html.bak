@@ -2,7 +2,7 @@
 
 <script type="text/javascript">
 Title = "Björn Nadrowski";
-WebSiteRoot = "http://bjrnfrdnnd.github.io/learning_github";
+WebSiteRoot = "http://localhost/~bn/learning";
 </script>
 
 <script type="text/javascript"><!--
@@ -73,7 +73,7 @@ document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/A>");
 					download the PDF file.</a></p>
 
 				</object> -->
-				<embed src="cv.pdf" width=818px height=2270px style="overflow:scroll">  </embed>
+				<embed src="cv.pdf"  style="overflow:scroll; margin:0 auto">  </embed>
 
 	<!-- 		<div id="container" style="width: 818px; height: 2270px; margin:0 auto; float:right">
 				<a href="cv.pdf"><embed src="cv.pdf#view=Fit" width=818px height=2270px>  </embed></a>
