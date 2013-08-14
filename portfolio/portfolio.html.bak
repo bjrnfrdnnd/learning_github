@@ -6,7 +6,7 @@
 <head>
   <script type="text/javascript">
     Title = "Björn Nadrowski";
-		WebSiteRoot = "http://bjrnfrdnnd.github.io/learning_github";
+		WebSiteRoot = "http://localhost/~bn/learning";
 	</script>
 
 	<script type="text/javascript">
@@ -55,8 +55,12 @@
 				<li>
 					<a id = "CVLink" href="#"> CV </a>
 					<script type="text/javascript"> 
-					document.getElementById("CVLink").setAttribute("href",WebSiteRoot+"/cv/cv.html");
-					</script>
+		      	var isiPad = navigator.userAgent.match(/iPad/i) != null;
+		      	if (isiPad)
+		      		document.getElementById("CVLink").setAttribute("href",WebSiteRoot+"/cv/cv.pdf");
+		      	else	
+		      		document.getElementById("CVLink").setAttribute("href",WebSiteRoot+"/cv/cv.html");
+	      	</script>
 				</li>
 				<li>
 					<a id = "PhotographyLink" href="#"> Photography </a>
