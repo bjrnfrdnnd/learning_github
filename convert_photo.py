@@ -27,6 +27,7 @@ for AbsPath in OriginalList:
     TargetDir = os.path.join('portfolio','img')
     TargetName = os.path.join(TargetDir,Name)
     if not os.path.exists(TargetName):
+        print TargetName
         convertPhoto(AbsPath,TargetName)
         pass
     pass

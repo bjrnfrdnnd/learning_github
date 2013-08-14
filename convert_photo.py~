@@ -2,7 +2,7 @@ import glob,os,wand.image
 
 def convertPhoto(AbsPath,TargetName):
     with wand.image.Image(filename=AbsPath) as img:
-        WantedHeight = 400.
+	WantedHeight = 500.
         factor = WantedHeight/img.height
         NewWidth = factor*img.width
         NewHeight = factor*img.height
