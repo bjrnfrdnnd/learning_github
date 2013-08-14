@@ -2,7 +2,7 @@
 
 <script type="text/javascript">
 Title = "Björn Nadrowski";
-WebSiteRoot = "http://bjrnfrdnnd.github.io/learning_github";
+WebSiteRoot = "http://localhost/~bn/learning";
 </script>
 
 <script type="text/javascript"><!--
@@ -66,14 +66,14 @@ document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/A>");
 
 		<div class="page" style="margin: 0; padding:0; overflow:scroll">
 
-<!-- 			<object data="cv.pdf" type="application/pdf" width="100%" height="100%">
+			<a href="cv.pdf"><object data="cv.pdf" type="application/pdf" width="100%" height="100%">
 
 				<p>It appears you don't have a PDF plugin for this browser.
 					No biggie... you can <a href="cv.pdf">click here to
 					download the PDF file.</a></p>
 
-				</object> -->
-				<embed src="cv.pdf"  style="overflow:scroll; margin:0 auto">  </embed>
+				</object></a>
+
 
 	<!-- 		<div id="container" style="width: 818px; height: 2270px; margin:0 auto; float:right">
 				<a href="cv.pdf"><embed src="cv.pdf#view=Fit" width=818px height=2270px>  </embed></a>
