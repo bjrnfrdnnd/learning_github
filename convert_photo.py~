@@ -1,0 +1,3 @@
+import glob
+OriginalList = glob.glob('portfolio/img/originals/*jpg')
+print OriginalList
