@@ -1,22 +1,22 @@
 
 <!doctype html />
 
+<script type="text/javascript">
+Title = "Björn Nadrowski";
+WebSiteRoot = "http://localhost/~bn/learning";
+</script>
+
+<script type="text/javascript">
+function gen_mail_to_link(lhs,rhs,subject)
+{
+document.write("<A HREF=\"mailto");
+document.write(":" + lhs + "@");
+document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/A>"); } 
+</script>
+
 <html>
 
 <head>
-  <script type="text/javascript">
-    Title = "Björn Nadrowski";
-		WebSiteRoot = "http://bjrnfrdnnd.github.io/learning_github";
-	</script>
-
-	<script type="text/javascript">
-		function gen_mail_to_link(lhs,rhs,subject)
-		{
-			document.write("<A HREF=\"mailto");
-			document.write(":" + lhs + "@");
-			document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/A>"); } 
-	</script>
-
   <script type="text/javascript"> 
     document.title = Title;
 	</script>
@@ -28,15 +28,13 @@
     document.getElementById("Head.NormalizeCSS").setAttribute("href",WebSiteRoot+"/css/normalize.css");
     document.getElementById("Head.StyleCSS").setAttribute("href",WebSiteRoot+"/css/style.css");
 	</script>
-
-
 </head>
 
 
 
 <body>
 
-
+		
 	<div class="wrap">
 
 		<div id="banner">
@@ -45,15 +43,15 @@
 		</div>
 
 		<div class="navigation">
-			<ul>
+		  <ul>
+		    <li>
+		      <a id = "HomeLink" href="#"> Home </a>
+		      <script type="text/javascript"> 
+		      document.getElementById("HomeLink").setAttribute("href",WebSiteRoot+"/index.html");
+		      </script>
+		    </li>
 				<li>
-					<a id = "HomeLink" href="#"> Home </a>
-					<script type="text/javascript"> 
-					document.getElementById("HomeLink").setAttribute("href",WebSiteRoot+"/index.html");
-					</script>
-				</li>
-				<li>
-					<a id = "CVLink" href="#"> CV </a>
+		      <a id = "CVLink" href="#"> CV </a>
 					<script type="text/javascript"> 
 		      	var isiPad = navigator.userAgent.match(/iPad/i) != null;
 		      	if (isiPad)
@@ -61,14 +59,20 @@
 		      	else	
 		      		document.getElementById("CVLink").setAttribute("href",WebSiteRoot+"/cv/cv.html");
 	      	</script>
-				</li>
-				<li>
-					<a id = "PhotographyLink" href="#"> Photography </a>
-					<script type="text/javascript"> 
-					document.getElementById("PhotographyLink").setAttribute("href",WebSiteRoot+"/portfolio/portfolio.html");
-					</script>
-				</li>
-			</ul>
+		    </li>
+		    <li>
+		      <a id = "PhotographyLink" href="#"> Photography </a>
+		      <script type="text/javascript"> 
+		      document.getElementById("PhotographyLink").setAttribute("href",WebSiteRoot+"/portfolio/portfolio.html");
+		      </script>
+		    </li>
+		    <li>
+		      <a id = "TestForBlogLink" href="#"> TestForBlog </a>
+		      <script type="text/javascript"> 
+		      document.getElementById("TestForBlogLink").setAttribute("href",WebSiteRoot+"/blog/blog.html");
+		      </script>
+		    </li>
+		  </ul>
 		</div>
 
 		
