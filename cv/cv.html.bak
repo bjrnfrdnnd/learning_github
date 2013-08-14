@@ -67,7 +67,7 @@ document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/A>");
 		<div class="page">
 			
 			<div id="container" style="width: 818px; height: 2270px; margin:0 auto; float:right">
-				<embed src="cv.pdf" width=818px height=2270px>  </embed>
+				<a href="cv.pdf"><embed src="cv.pdf#view=Fit" width=818px height=2270px>  </embed></a>
 			</div>
 			<div>
 				<a style="float:left" href="cv.pdf">Download Resume</a>
