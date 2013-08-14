@@ -2,7 +2,7 @@
 
 <script type="text/javascript">
 Title = "Björn Nadrowski";
-WebSiteRoot = "http://bjrnfrdnnd.github.io/learning_github";
+WebSiteRoot = "http://localhost/~bn/learning";
 </script>
 
 <script type="text/javascript"><!--
@@ -66,8 +66,11 @@ document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/A>");
 
 		<div class="page">
 			
-			<div id="container" style="width: 818px; height: 2270px; margin:0 auto">
+			<div id="container" style="width: 818px; height: 2270px; margin:0 auto; float:right">
 				<embed src="cv.pdf" width=818px height=2270px>  </embed>
+			</div>
+			<div>
+				<a style="float:left" href="cv.pdf">Download Resume</a>
 			</div>
 
 	   </div>
