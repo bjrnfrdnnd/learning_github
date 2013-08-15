@@ -1,0 +1,129 @@
+
+<!doctype html />
+
+<script type="text/javascript">
+Title = "Björn Nadrowski";
+WebSiteRoot = "http://localhost/~bn/learning";
+</script>
+
+<script type="text/javascript">
+function gen_mail_to_link(lhs,rhs,subject)
+{
+document.write("<A HREF=\"mailto");
+document.write(":" + lhs + "@");
+document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/A>"); } 
+</script>
+
+<html>
+
+<head>
+  <script type="text/javascript"> 
+    document.title = Title;
+	</script>
+	<meta name="utf8beacon" content="éçñøåá—" />
+  <meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8">
+  <link id="Head.NormalizeCSS" rel="stylesheet"    type="text/css" href="#" />
+  <link id="Head.StyleCSS"     rel="stylesheet"    type="text/css" href="#" />
+  <script type="text/javascript"> 
+    document.getElementById("Head.NormalizeCSS").setAttribute("href",WebSiteRoot+"/css/normalize.css");
+    document.getElementById("Head.StyleCSS").setAttribute("href",WebSiteRoot+"/css/style.css");
+	</script>
+</head>
+
+
+
+<body>
+
+		
+	<div class="wrap">
+
+		<div id="banner">
+			<h1>Björn Nadrowski</h1>
+			<p>Interested Human Being</p>
+		</div>
+
+		<div class="navigation">
+		  <ul>
+		    <li>
+		      <a id = "HomeLink" href="#"> Home </a>
+		      <script type="text/javascript"> 
+		      document.getElementById("HomeLink").setAttribute("href",WebSiteRoot+"/index.html");
+		      </script>
+		    </li>
+				<li>
+		      <a id = "CVLink" href="#"> CV </a>
+					<script type="text/javascript"> 
+		      	var isiPad = navigator.userAgent.match(/iPad/i) != null;
+		      	if (isiPad)
+		      		document.getElementById("CVLink").setAttribute("href",WebSiteRoot+"/cv/cv.pdf");
+		      	else	
+		      		document.getElementById("CVLink").setAttribute("href",WebSiteRoot+"/cv/cv.html");
+	      	</script>
+		    </li>
+		    <li>
+		      <a id = "PhotographyLink" href="#"> Photography </a>
+		      <script type="text/javascript"> 
+		      document.getElementById("PhotographyLink").setAttribute("href",WebSiteRoot+"/portfolio/portfolio.html");
+		      </script>
+		    </li>
+		    <li>
+		      <a id = "TestForBlogLink" href="#"> TestForBlog </a>
+		      <script type="text/javascript"> 
+		      document.getElementById("TestForBlogLink").setAttribute("href",WebSiteRoot+"/blog/blog.html");
+		      </script>
+		    </li>
+		  </ul>
+		</div>
+
+		
+		<script id="jquery.js" type="text/javascript" src="jquery-1.10.2.min.js"></script>	
+		<script id="jquery.galleria.js" type="text/javascript" src="galleria/galleria-1.2.9.js"></script>	
+
+		
+		<link id="galleria.StyleCSS"     rel="stylesheet"    type="text/css" href="galleria/themes/classic/galleria.classic.custom.css" />
+
+		<div id="galleria">
+			<img src="img/_MG_0102.jpg" data-big="img/originals/_MG_0102.jpg" alt="Metro Station, Washington DC 2008" data-title="Metro Station" data-description="Metro Station, Washington DC 2008" />
+			<img src="img/MG_1633.jpg" data-big="img/originals/MG_1633.jpg" alt="Mermaid, Brest 2008" data-title="Mermaid" data-description="Mermaid, Brest 2008" />
+			<img src="img/MG_2002.jpg" data-big="img/originals/MG_2002.jpg" alt="Seasickness, English Channel 2008" data-title="Seasickness" data-description="Seasickness, English Channel 2008" />
+			<img src="img/MG_3328.jpg" data-big="img/originals/MG_3328.jpg" alt="Temple Dance, Elsdorf 2008" data-title="Temple Dance" data-description="Temple Dance, Elsdorf 2008" />
+			<img src="img/MG_5649.jpg" data-big="img/originals/MG_5649.jpg" alt="Monkey, Halle 2009" data-title="Monkey" data-description="Monkey, Halle 2009" />
+			<img src="img/MG_6234.jpg" data-big="img/originals/MG_6234.jpg" alt="Building, San Francisco 2010" data-title="Building" data-description="Building, San Francisco 2010" /> 
+			<img src="img/MG_6413.jpg" data-big="img/originals/MG_6413.jpg" alt="Spring, Göttingen 2010" data-title="Spring" data-description="Spring, Göttingen 2010" /> 
+			<img src="img/MG_7804.jpg" data-big="img/originals/MG_7804.jpg" alt="Hands, Leipzig 2010" data-title="Hands" data-description="Hands, Leipzig 2010" /> 
+			<img src="img/MG_7903.jpg" data-big="img/originals/MG_7903.jpg" alt="Clouds, Leipzig 2010" data-title="Clouds" data-description="Clouds, Leipzig 2010" /> 
+			<img src="img/MG_8154.jpg" data-big="img/originals/MG_8154.jpg" alt="Building, Caracas 2010" data-title="Building" data-description="Building, Caracas 2010" /> 
+			<img src="img/MG_8350.jpg" data-big="img/originals/MG_8350.jpg" alt="Houses, Colonia Tovar 2010" data-title="Houses" data-description="Houses, Colonia Tovar 2010" /> 
+			<img src="img/MG_8910.jpg" data-big="img/originals/MG_8910.jpg" alt="Salto Ángel, Auyan-Tepui 2010" data-title="Salto Ángel" data-description="Salto Ángel, Auyan-Tepui 2010" /> 
+			<img src="img/MG_9228.jpg" data-big="img/originals/MG_9228.jpg" alt="Sunset, Ciudad Bolívar 2010" data-title="Sunset" data-description="Sunset, Ciudad Bolívar 2010" /> 
+			<img src="img/MG_9415.jpg" data-big="img/originals/MG_9415.jpg" alt="Piranha, Rio Orinoco 2010" data-title="Piranha" data-description="Piranha, Rio Orinoco 2010" /> 
+			<img src="img/MG_0174.jpg" data-big="img/originals/MG_0174.jpg" alt="Winter, Leipzig 2010" data-title="Winter" data-description="Winter, Leipzig 2010" /> 
+			<img src="img/P3230043.jpg" data-big="img/originals/P3230043.jpg" alt="Dörferblick, Berlin 2013" data-title="Dörferblick" data-description="Dörferblick, Berlin 2013"/>
+			<img src="img/IMG_6345.jpg" data-big="img/originals/IMG_6345.jpg" alt="Sunset, Ytre Maløya 2013" data-title="Sunset" data-description="Sunset, Ytre Maløya 2013"/>
+			<img src="img/IMG_6453.jpg" data-big="img/originals/IMG_6453.jpg" alt="New Opera, Oslo 2013" data-title="New Opera" data-description="New Opera, Oslo 2013"/>
+
+		</div>
+
+		<script>
+		Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+		Galleria.configure({
+			transition: 'fade',
+			imageCrop: false,
+			clicknext: false,
+			lightbox: true,
+			showImagenav: true,
+			thumbnails: true,
+			carousel: true
+		});
+		Galleria.run('#galleria');
+
+		</script>
+
+	</div>
+
+</body>
+
+</html>
+
+
+
