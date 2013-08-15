@@ -2,7 +2,7 @@
 
 <script type="text/javascript">
 Title = "Björn Nadrowski";
-WebSiteRoot = "http://bjrnfrdnnd.github.io/learning_github";
+WebSiteRoot = "http://localhost/~bn/learning";
 </script>
 
 <script type="text/javascript">
@@ -76,8 +76,8 @@ document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/A>");
 
 
 		<div class="page" style="margin: 0; padding:0; ">
-			<!-- <iframe allowtransparency=true frameborder=0 id=rf sandbox="allow-same-origin allow-forms allow-scripts" scrolling=auto src="http://www.karin.nadrowski.eu" style="width:100%;height:100%"></iframe> -->
-			<h3 style="letter-spacing: -1">This is going to be my blog</h3>
+			<iframe allowtransparency=true frameborder=0 id=rf sandbox="allow-same-origin allow-forms allow-scripts" scrolling=auto src="http://bjrnfrdnnd.tumblr.com" style="width:100%;height:100%"></iframe>
+			<!-- <h3 style="letter-spacing: -1">This is going to be my blog</h3> -->
 
 	   </div>
 	
