@@ -14,12 +14,6 @@ def convertPhoto(AbsPath,TargetName):
 
 OriginalList = glob.glob('portfolio/img/originals/*jpg')
 
-for AbsPath in OriginalList:
-    if AbsPath.find('/_MG')>0:
-        NewAbsPath = AbsPath.replace('_MG','MG')
-        os.rename(AbsPath,NewAbsPath)
-	pass
-    pass
     
 OriginalList = glob.glob('portfolio/img/originals/*jpg')
 for AbsPath in OriginalList:
